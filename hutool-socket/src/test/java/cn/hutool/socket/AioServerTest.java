@@ -29,7 +29,7 @@ public class AioServerTest {
 			public void doAction(AioSession session, ByteBuffer data) {
 				Console.log(data);
 				
-				if(!data.hasRemaining()) {
+				if(false == data.hasRemaining()) {
 					StringBuilder response = StrUtil.builder()//
 							.append("HTTP/1.1 200 OK\r\n")//
 							.append("Date: ").append(DateUtil.formatHttpDate(DateUtil.date())).append("\r\n")//
