@@ -34,7 +34,8 @@
 		<module>hutool-poi</module>
 		<module>hutool-captcha</module>
 		<module>hutool-socket</module>
-	</modules>
+        <module>hutool-netty-socket</module>
+    </modules>
 
 	<properties>
 		<project.build.sourceEncoding>utf-8</project.build.sourceEncoding>
