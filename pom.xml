@@ -34,7 +34,6 @@
 		<module>hutool-poi</module>
 		<module>hutool-captcha</module>
 		<module>hutool-socket</module>
-        <module>hutool-netty-socket</module>
     </modules>
 
 	<properties>
